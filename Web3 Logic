@@ -17,7 +17,7 @@ async function getBalance() {
         const balance = await provider.getBalance(address
         
         // Wei ko ETH mein convert karna
-        const ethBalance = ethers.utils.formatEther(balance);
+        const ethBalance = ethers.utils.formatEther(balanc
 
         balanceText.innerText = `Balance: ${parseFloat(ealan.toFixed(4)} ETH`;
     } catch (error) {
