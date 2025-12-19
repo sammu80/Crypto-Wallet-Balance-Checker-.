@@ -1,0 +1,27 @@
+async function getBalance() {
+    const address = document.getElementById('walletAddress').value;
+    const balanceText = document.getElementById('balanceText');
+
+    if (!ethers.utils.isAddress(address)) {
+        alert("Please enter a valid Ethereum address!");
+        return;
+    }
+
+    balanceText.innerText = "Fetching...";
+
+    try {
+        // Hum public provider use kar rahe hain (Cloudflare or Ankr)
+        const provider = new ethers.providers.JsonRpcProvider("https://cloudflare-eth.com");
+        
+        // Balance fetch karna (Wei mein aata hai)
+        const balance = await provider.getBalance(address);
+        
+        // Wei ko ETH mein convert karna
+        const ethBalance = ethers.utils.formatEther(balance);
+        
+        balanceText.innerText = `Balance: ${parseFloat(ethBalance).toFixed(4)} ETH`;
+    } catch (error) {
+        console.error(error);
+        balanceText.innerText = "Error fetching balance.";
+    }
+}
