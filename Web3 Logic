@@ -19,7 +19,7 @@ async function getBalance() {
         // Wei ko ETH mein convert karna
         const ethBalance = ethers.utils.formatEther(balance);
         
-        balanceText.innerText = `Balance: ${parseFloat(ethBalan.toFixed(4)} ETH`;
+        balanceText.innerText = `Balance: ${parseFloat(ealan.toFixed(4)} ETH`;
     } catch (error) {
         console.error(error);
         balanceText.in
