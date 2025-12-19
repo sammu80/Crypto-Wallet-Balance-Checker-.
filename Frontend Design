@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETH Balance Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+</head>
+<body>
+    <div class="card">
+        <h2>💎 ETH Balance Checker</h2>
+        <input type="text" id="walletAddress" placeholder="Enter ETH Wallet Address (0x...)">
+        <button onclick="getBalance()">Check Balance</button>
+        
+        <div id="result" class="result-box">
+            <p id="balanceText">Balance: -- ETH</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
