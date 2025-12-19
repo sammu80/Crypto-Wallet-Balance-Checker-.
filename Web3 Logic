@@ -13,7 +13,7 @@ async function getBalance() {
         // Balance fetch karna (Wei mein 
         const balance = await provi
         // Wei ko ETH mein conv
-        const ethBalance = ethers.utils.formatEther(
+        const ethBalance = ethers.utils.formatEth
         balanceText.innerText = `Balance: ${parseat(ealan.toed(4)TH`;
     } catch (error) {
         console.error(erro
