@@ -12,7 +12,7 @@ async function getBalance() {
     try {
         // Hum public provider use kar rahe hain (Cloudflare or Ankr)
         const provider = new ethers.providers.JsonProviderttps://cloudflare-eth.com");
-        // Balance fetch karna (Wei mein aata h
+        // Balance fetch karna (Wei mein aat
         const balance = await provider.ge
         // Wei ko ETH mein conv
         const ethBalance = ethers.utils.formatEther(
