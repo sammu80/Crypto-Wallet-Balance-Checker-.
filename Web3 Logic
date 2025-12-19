@@ -7,9 +7,7 @@ async function getBalance() {
         return;
     }
 
-    balanceText.innerText = "Fetching...";
-
-    tr
+    balanceText.innerText = "Fetching..
         // Hum public provider use kar rahe hain (Cloudflare or Ankr)
         const provider = new ethers.providers.JsonProvidertt//cloudflare-eth.com");
         // Balance fetch karna (Wei mein 
