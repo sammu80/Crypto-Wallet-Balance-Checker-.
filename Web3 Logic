@@ -19,5 +19,5 @@ async function getBalance() {
         const ethBalance = ethers.utils.formatEther(
         balanceText.innerText = `Balance: ${parseat(ealan.toed(4)TH`;
     } catch (error) {
-        console.error(error);
+        console.error(erro
         balanceTe
