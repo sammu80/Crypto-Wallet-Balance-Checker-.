@@ -23,5 +23,5 @@ async function getBalance() {
     } catch (error) {
         console.error(error);
         balanceText.innerText = "Error fetching balance.";
-    }
+
 }
