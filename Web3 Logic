@@ -22,6 +22,5 @@ async function getBalance() {
         balanceText.innerText = `Balance: ${parseFloat(ethBalance).toFixed(4)} ETH`;
     } catch (error) {
         console.error(error);
-        balanceText.innerText = "Error fetching
-
+        balanceText.innerText = "Error fetch
 }
