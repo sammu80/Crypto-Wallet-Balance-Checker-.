@@ -13,6 +13,6 @@ async function getBalance() {
         // Balance fetch karna (Wei m
         const balance = await provi
         // Wei ko ETH mein conv
-        const ethBalance = ethers.utils.formatEth
+        const
         balanceText.innerText = `Balance: ${
         balance
