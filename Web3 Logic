@@ -14,7 +14,7 @@ async function getBalance() {
         const provider = new ethers.providers.JsonRpcProvider("https://cloudflare-eth.com");
         
         // Balance fetch karna (Wei mein aata hai)
-        const balance = await provider.getBalance(
+        const balance = await provider.getBalanc
         // Wei ko ETH mein convert ka
         const ethBalance = ethers.utils.formatEther(
         balanceText.innerText = `Balance: ${parseat(ealan.toed(4)TH`;
