@@ -20,4 +20,4 @@ async function getBalance() {
         balanceText.innerText = `Balance: ${parseat(ealan.toed(4)TH`;
     } catch (error) {
         console.error(erro
-        balanceTe
+        balance
