@@ -1,4 +1,4 @@
-yyttasync function getBalance() {
+rfyyttasync function getBalance() {
     const address = document.getElementById('walletAddress').value;
     const balanceText = document.getElementById('balanceText');
 
