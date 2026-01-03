@@ -1,4 +1,4 @@
-yyrtftghrtby t5ft45uuhurfyyttasync function getBalance() {
+fgyyrtftghrtby t5ft45uuhurfyyttasync function getBalance() {
     const address = document.getElementById('walletAddress').value;
     const balanceText = document.getElementById('balanceText');
 
